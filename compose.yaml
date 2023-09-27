@@ -1,0 +1,16 @@
+services:
+  web:
+    build: .
+    ports:
+      - "80:80"
+    volumes:
+      - ./laravel:/var/www/html
+    environment:
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+  db:
+    image: postgres
+    restart: always
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
