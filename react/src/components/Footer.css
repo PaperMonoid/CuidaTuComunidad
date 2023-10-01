@@ -1,0 +1,17 @@
+.footer-link {
+    color: white;
+    text-decoration: none;
+    filter: brightness(1);
+}
+
+.footer-link:hover {
+    color: #32a2a8;
+    text-decoration: underline;
+    filter: brightness(2);
+}
+
+.footer-link:active {
+    color: white;
+    text-decoration: none;
+    filter: brightness(1);
+}
