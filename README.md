@@ -1,7 +1,7 @@
 # CuidaTuComunidad
 **Año 2025**. El gobierno federal de México ha lanzado la iniciativa "Cuida Tu Comunidad" (CTC), con el propósito de fomentar la colaboración ciudadana en tareas comunitarias. A través de esta plataforma, los ciudadanos pueden otorgar "likes" a tareas que consideren de relevancia para su comunidad.
 
-![screenshot](images/screenshot.png)
+<img src="./images/screenshot.PNG" width="700"/>
 
 ## Instrucciones de Uso
 
