@@ -47,7 +47,7 @@ export default function({ search, filter }) {
 
         // Verificar si el usuario hizo scroll hacia abajo y está cerca del final
         if (currentScrollY > lastScrollY.current &&
-            window.innerHeight + currentScrollY >= document.documentElement.scrollHeight - 500) {
+            window.innerHeight + currentScrollY >= document.documentElement.scrollHeight - 100) {
             loadMoreTasks();
         }
 
