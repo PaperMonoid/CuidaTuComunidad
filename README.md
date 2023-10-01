@@ -27,7 +27,12 @@
    cp -r react/dist laravel/dist
    ```
 
-4. **Uso con Docker**:
+4. **Copiar Archivo de variables de entorno**:
+   ```bash
+   cp .env.example .env
+   ```
+   
+5. **Uso con Docker**:
    Simplemente ejecuta el siguiente comando para iniciar el proyecto:
    ```bash
    docker-compose up
